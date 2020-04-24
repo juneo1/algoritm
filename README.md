@@ -1,2 +1,5 @@
-# Algoritm
-prepare coding test
+# 코딩테스트 대비 특강
+- prepare coding test
+
+### 코딩테스트 대비를 위한 알고리즘 및 자료구조 실습
+- 각 강의를 보고 해당 자료구조와 BOJ 알고리즘 문제등을 기록하는 용도
