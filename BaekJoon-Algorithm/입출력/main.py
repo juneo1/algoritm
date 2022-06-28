@@ -174,30 +174,67 @@ cnt = int(input())
 for i in range(1, cnt+1):
     print(" "*(cnt-i) + "*"*i)
     
+
 # 2440 별 찍기 - 3
 cnt = int(input())
 
 for i in range(cnt, 0, -1):
     print("*"*i)
 
-# 2441
+
+# 2441 별 찍기 - 4
+cnt = int(input())
+
+for i in range(0, cnt+1):
+    print(" "*(i) + "*"*(cnt-i))
 
 
-# 2442
+# 2442 별 찍기 - 5
+cnt = int(input())
+
+for i in range(1, cnt+1):
+    print(" "*(cnt-i) + "*"*(i) + "*"*(i-1))
 
 
-# 2445
+# 2445 별 찍기 - 8
+cnt = int(input())
+
+for i in range(1, cnt+1):
+    print("*"*(i) + " "*(cnt-i) + " "*(cnt-i) + "*"*(i))
+
+for i in range(cnt-1, 0, -1):
+    print("*"*(i) + " "*(cnt-i) + " "*(cnt-i) + "*"*(i))
 
 
-# 2522
+# 2522 별 찍기 - 9
+cnt = int(input())
+
+for i in range(0, cnt):
+    print(" " * (i) + "*" * (2 * (cnt - i) - 1))
+
+for j in range(1, cnt):
+    print(" " * (cnt - j - 1) + "*" * (2 * (j) + 1))
 
 
-# 2446
+
+# 2446 
 
 
-# 10991 
+
+# 10991 별 찍기 - 16
+n = int(input())
+
+for i in range(1, n+1):
+    print(" " * (n-i) + "* " * (i-1) + "*")
 
 
-# 10992
 
+# 10992 별 찍기 - 17
+n = int(input())
+
+for i in range(1, n+1):
+    if (i==1 or i==n):
+        print(" " * (n-i) + "*" * (2*i-1))
+    else:
+        print(" " * (n-i) + "*" + " "*(2*(i) - 3) + "*")
 
