@@ -32,7 +32,6 @@ for i in range (count):
         print(stack[-1] if len(stack) > 0 else -1)
 
 
-
 # [뼈대문제] 백준 10845번. 큐
 # push X: 정수 X를 큐에 넣는 연산이다.
 # pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.
